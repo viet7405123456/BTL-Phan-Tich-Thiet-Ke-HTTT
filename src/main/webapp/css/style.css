@@ -1,0 +1,83 @@
+* { box-sizing: border-box; }
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    color: #222;
+}
+.navbar {
+    background: #2c3e50;
+    color: #fff;
+    padding: 14px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .brand { font-size: 18px; font-weight: 600; }
+.navbar .user-info { font-size: 14px; }
+.navbar a { color: #ecf0f1; text-decoration: none; margin-left: 16px; }
+.navbar a.logout {
+    background: #e74c3c;
+    padding: 6px 14px;
+    border-radius: 4px;
+}
+.navbar a.logout:hover { background: #c0392b; }
+
+.container {
+    max-width: 960px;
+    margin: 24px auto;
+    background: #fff;
+    padding: 24px 28px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+h2 { margin-top: 0; color: #2c3e50; }
+.subtitle { color: #666; margin-bottom: 20px; }
+
+table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+th, td { padding: 10px 12px; border-bottom: 1px solid #e0e0e0; text-align: left; }
+th { background: #f0f3f5; color: #2c3e50; }
+tr:hover { background: #fafbfc; }
+
+.btn {
+    display: inline-block;
+    padding: 9px 18px;
+    border-radius: 5px;
+    border: none;
+    background: #2980b9;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+.btn:hover { background: #21618c; }
+.btn-secondary { background: #7f8c8d; }
+.btn-secondary:hover { background: #636e70; }
+.btn-success { background: #27ae60; }
+.btn-success:hover { background: #1e8449; }
+
+.form-group { margin-bottom: 16px; }
+.form-group label { display: block; margin-bottom: 6px; font-weight: 600; color: #333; }
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 9px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.alert { padding: 12px 16px; border-radius: 5px; margin-bottom: 16px; }
+.alert-success { background: #d4efdf; color: #1e8449; border: 1px solid #a9dfbf; }
+.alert-info { background: #d6eaf8; color: #21618c; border: 1px solid #aed6f1; }
+.alert-warning { background: #fdebd0; color: #9c640c; border: 1px solid #f8c471; }
+
+.role-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 18px;
+    margin-bottom: 18px;
+}
+.role-card h3 { margin-top: 0; }
+.role-card select { width: 60%; margin-right: 10px; }
+.placeholder-link { color: #aaa; }
+.footer-note { margin-top: 24px; font-size: 12px; color: #999; }

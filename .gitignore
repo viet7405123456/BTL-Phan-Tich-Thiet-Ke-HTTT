@@ -1,0 +1,17 @@
+target/
+*.class
+.idea/
+*.iml
+.vscode/
+*.log
+
+# Trang dang nhap demo thay cho module dang nhap thuc (chua duoc thiet ke trong UML) - khong push len GitHub
+src/main/webapp/index.jsp
+src/main/webapp/logout.jsp
+
+# Ghi chu/tai lieu lam viec noi bo - khong push len GitHub
+*.md
+
+# File Docker - khong push len GitHub
+Dockerfile
+docker-compose.yml
